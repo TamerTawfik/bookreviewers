@@ -1,34 +1,147 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
+  <h3 align="center">Multi-Tenant App for book reviewers.</h3>
+
+  <p align="center">
+    An awesome Platform dedicated for book reviewers.
+    <br />
+    <a href="https://github.com/TamerTawfik/bookreviewers"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://bookreviewers.vercel.app/enter">View Live</a>
+    ·
+    <a href="https://github.com/TamerTawfik/bookreviewers/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/TamerTawfik/bookreviewers/issues">Request Feature</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://bookreviewers.vercel.app/enter)
+
+A Platform dedicated for book reviewers. Based on Course by <a href="https://fireship.io/courses/react-next-firebase/"><strong>Fireship »</strong></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+
+
+* React, Next JS
+* MUI
+* Firebase
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+Make sure Node.js is installed in your OS.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/TamerTawfik/bookreviewers.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Add your firebaseConfig secret keys
+    ```sh
+   lib/firebase.js
+   ```
+4. start the local server
+   ```sh
+   npm run dev
+   ```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+<!-- CONTRIBUTING -->
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Deploy on Vercel
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Tamer Tawfik - [@TamerTawfik_Me](https://twitter.com/TamerTawfik_Me) 
+
+Project Link: [https://github.com/TamerTawfik/bookreviewers](https://github.com/TamerTawfik/bookreviewers)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+
+* [Next JS](https://nextjs.org/)
+* [Firebase](https://firebase.google.com/)
+* [MUI](https://mui.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+[product-screenshot]: public/bookreviewers.png
