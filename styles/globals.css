@@ -1,0 +1,14 @@
+
+
+blockquote {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+blockquote::before {
+    content: open-quote;
+}
+
+blockquote::after {
+    content: close-quote;
+  }
