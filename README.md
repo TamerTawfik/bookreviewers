@@ -50,7 +50,14 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://bookreviewers.vercel.app/enter)
 
-A Platform dedicated for book reviewers. Based on Course by <a href="https://fireship.io/courses/react-next-firebase/"><strong>Fireship »</strong></a>
+
+BookReviewers is a full-stack web application that enables users to review books, as well as read reviews by other users. This project was developed with the aim of improving front-end development skills and creating a complete CRUD operation application with authentication and a multitenant platform.
+
+The application allows users to create accounts, log in, and submit reviews on their favorite books. Users can also read and rate reviews by other users, as well as edit and delete their own reviews. The platform supports multiple tenants, allowing for multiple user groups to access the application and manage their own reviews.
+
+The project was built using modern front-end technologies such as React, Next.js, and Material-UI for a responsive and intuitive user interface. For the backend, the project uses Firebase to handle user authentication and API requests, and the database.
+
+Overall, BookReviewers is a fully functional web application that demonstrates proficiency in front-end development, authentication, CRUD operations, and multitenancy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
